@@ -1,0 +1,31 @@
+.statistics-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: roboto;
+  font-size: 16px;
+}
+
+.statistics-container h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.statistics-table {
+  background-color: #e2c21087;
+  border-collapse: collapse;
+  border-radius: 8px;
+  width: 900px;
+  height: 300px;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.statistics-table:hover {
+  width: 1000px;
+  height: 350px;
+  font-weight: 900;
+}
+
+.statistics-table td {
+  border: none;
+}

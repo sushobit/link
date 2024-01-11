@@ -1,0 +1,98 @@
+.App {
+  background-color: #d7dbdb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 180px;
+}
+
+.heading-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 100px;
+  width: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-container h1 {
+  font-family: roboto;
+  color: #404040;
+  font-size: 25px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.filter-container input {
+  font-family: roboto;
+  background-color: #e2c21087;
+  color: #000;
+  font-size: 18px;
+  padding: 8px 18px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+
+.filter-container input::placeholder {
+  color: #474642;
+}
+
+.filter-container input:hover {
+  font-size: 20px;
+}
+
+.filter-container select {
+  font-family: roboto;
+  background-color: #e2c21087;
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 8px 18px;
+  outline: none;
+  border: none;
+}
+
+.filter-container select:hover {
+  font-size: 20px;
+}
+
+select option:checked {
+  background-color: lightblue;
+}
+
+.view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.view-container h1 {
+  font-family: roboto;
+  color: #404040;
+}
+
+.view-container button {
+  font-family: roboto;
+  color: #fff;
+  font-size: 18px;
+  margin: 20px;
+  padding: 8px 18px;
+  background-color: red;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
