@@ -55,7 +55,7 @@
 
 .filter-container select {
   font-family: roboto;
-  background-color: #e2c21087;
+  background-color: #FA9090;
   font-size: 18px;
   border-radius: 8px;
   padding: 8px 18px;
@@ -68,7 +68,7 @@
 }
 
 select option:checked {
-  background-color: lightblue;
+  background-color: blue;
 }
 
 .view-container {
