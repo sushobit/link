@@ -1,5 +1,5 @@
 .App {
-  background: linear-gradient(to right, #3498db, #87ceeb, #d3d3d3);
+  background: linear-gradient(to bottom, #87CEFA, #A9A9A9, #FFFFFF);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
