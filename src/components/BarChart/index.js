@@ -21,7 +21,7 @@ const BarChartComponent = (props) => {
         <XAxis dataKey="range" />
         <YAxis />
         <Tooltip />
-        <Bar dataKey="count" fill="#6ce5e8" />
+        <Bar dataKey="count" fill="#FA9090" />
       </BarChart>
     </div>
   );
